@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+body {
+    border-top: 10px solid rgb(118, 160, 170);
+    border-bottom: 10px solid rgb(118, 160, 170);
+    background-color: #fff;
+    font-family: "Hiragino Kaku Gothic Pro","Meiryo",sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+
+header {
+    background-color:#fff;
+    margin-bottom: 20px, 20px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+
+}
+
+.header-logo h1{
+    font-size: 25px;
+    font-weight: bold;
+    border: double 5px #bbb;
+    background-color: #eee;
+    margin-right: 10px;
+    padding: 3px;
+}
+
+.header-ue {
+    margin: 10px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #ccc;
+}
+
+header ul  {
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+}
+
+header ul li{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    background-color: #ddd;
+
+}
+
+header ul li a {
+    display: block;
+}
+
+a:hover {
+	background-color: rgb(219, 248, 255);
+}
+
+.main {
+    padding-bottom: 10px;
+}
+
+.contents {
+    margin: 10px;
+    padding: 10px;
+    /* font-weight: bold; */
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ddd;
+    /* display: inline-block; */
+    margin: 10px;
+    padding: 3px;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 90vw;
+    border: solid 1px #bbb
+}
+
+.koko {
+    font-size: 18px;
+    border: solid 1px #000000;
+    display: inline-block;
+    padding: 3px;
+    margin: 2px;
+    background-color: #fff;
+}
+
+form{
+    display: inline-block;
+    background-color: #fff;
+}
+
+footer {
+    height: 100px;
+    background-color: #ccc;
+}
+
+/* @media screen and (max-width: 100px) {
+    body,
+    nav,
+    aside {
+        width: 100%;
+    }
+    div {
+        flex-direction: column;
+    }
+    main {
+        order: -1;
+    }
+} */
