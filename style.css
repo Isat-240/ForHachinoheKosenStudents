@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
+
 body {
-    border-top: 10px solid rgb(118, 160, 170);
-    border-bottom: 10px solid rgb(118, 160, 170);
+    border-top: 10px solid rgb(80, 167, 159);
+    border-bottom: 10px solid rgb(80, 167, 159);
     background-color: #fff;
     font-family: "Hiragino Kaku Gothic Pro","Meiryo",sans-serif;
     font-size: 16px;
@@ -28,10 +29,10 @@ header {
 }
 
 .header-logo h1{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
-    border: double 5px #bbb;
-    background-color: #eee;
+    border: double 5px rgb(128, 224, 216);
+    background-color: rgb(244, 255, 254);
     margin-right: 10px;
     padding: 3px;
 }
@@ -39,22 +40,22 @@ header {
 .header-ue {
     margin: 10px;
     padding-bottom: 5px;
-    border-bottom: solid 1px #ccc;
+    border-bottom: solid 2px rgb(128, 224, 216);
 }
 
-header ul  {
+ul  {
     font-weight: bold;
     display: flex;
     list-style: none;
 }
 
-header ul li{
+.headlink{
     position: relative;
     text-align: center;
     width: 100%;
     margin: 5px;
     padding: 5px;
-    background-color: #ddd;
+    background-color: rgb(227, 248, 246);
 
 }
 
@@ -63,28 +64,33 @@ header ul li a {
 }
 
 a:hover {
-	background-color: rgb(219, 248, 255);
+	background-color: white;
 }
+
 
 .main {
     padding-bottom: 10px;
 }
 
 .contents {
+    width: 95vw;
     margin: 10px;
     padding: 10px;
     /* font-weight: bold; */
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-top: solid 10px rgb(128, 224, 216);
 }
 
 h3 {
     font-weight: bold;
-    font-size: 20px;
-    background-color: #ddd;
+    font-size: 25px;
+    /* background-color: #ddd; */
     /* display: inline-block; */
-    margin: 10px;
+    margin-bottom: 10px;
     padding: 3px;
 }
 
@@ -95,17 +101,39 @@ img {
     margin-top: 5px;
     margin-bottom: 5px;
     width: 90vw;
-    border: solid 1px #bbb
+    border: solid 1px rgb(201, 212, 212);
+    background-color: white;
+}
+
+h4 {
+    /* font-weight: bold; */
+    font-size: 20px;
+    /* display: inline-block; */
+    padding: 3px;
+    margin: 5px;
+}
+
+.wakeme {
+    border-top: solid 5px rgb(210, 243, 240);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .koko {
     font-size: 18px;
-    border: solid 1px #000000;
+    border: solid 1px rgb(178, 204, 204);
     display: inline-block;
     padding: 3px;
     margin: 2px;
-    background-color: #fff;
+    background-color: rgb(244, 255, 254);
 }
+
+.hidariyose {
+    text-align: left;
+}
+
 
 form{
     display: inline-block;
@@ -114,8 +142,10 @@ form{
 
 footer {
     height: 100px;
-    background-color: #ccc;
+    background-color: rgb(210, 243, 240);
 }
+
+html { scroll-behavior: smooth;}
 
 /* @media screen and (max-width: 100px) {
     body,
