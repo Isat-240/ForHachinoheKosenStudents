@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="60"> 自動更新 -->
     <title>八戸高専生のためのサイト</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css">
     <link rel="stylesheet" href="style.css">
@@ -16,77 +17,84 @@
 
 <body>
 
-
-    <!-- <div class="loading"></div> -->
-
     <header>
         <div class="header-ue">
             <div class="header-logo">
                 <a href="https://isat-240.github.io/ForHachinoheKosenStudents/" alt="八戸高専生のためのサイト"><h1>八戸高専生のためのサイト</h1></a>
                 <div class="header-explain">このサイトは、八戸高専生が高専の情報を見つけやすくするためのサイトです。<br>
                 一番下に簡単なアンケートがあるので、解答していただけると嬉しいです。</div>
-            </div>
+                <a href="https://twitter.com/4HITHCstudents?s=20&t=bTPDEarGucdfvFQUwZ0R4w">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="50" height="50"
+                    viewBox="0 0 50 50"
+                    style=" fill:rgb(80, 167, 159);"><path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"></path></svg>
+                </a>
+                </div>
         </div>
 
         <ul class="header-list">
-            <a href="#schedule" class="headlink"><div>今日の日程</div></a>
+            <!-- <a href="#schedule" class="headlink"><div>今日の日程</div></a> -->
             <a href="#calendars" class="headlink"><div>行事予定表</div></a>
+            <a href="#change" class="headlink"><div>時間割変更<br>・休講情報</div></a>
             <a href="#timetable" class="headlink"><div>時間割</div></a>
             <a href="#syllabus" class="headlink"><div>シラバス</div></a>
             <a href="#handbook" class="headlink"><div>学生便覧</div></a>
             <a href="#notification" class="headlink"><div>届出様式</div></a>
             <a href="#links" class="headlink"><div>各リンク</div></a>
             <a href="#others" class="headlink"><div>その他</div></a>
-            <a href="#noticeboard" class="headlink"><div>掲示板</div></a>
+            <!-- <a href="#noticeboard" class="headlink"><div>掲示板</div></a> -->
         </ul>
     </header>
 
 
     <div class="main">
 
-        <div class="contents">
+        <!-- <div class="contents">
              <h3 id="schedule">今日の日程</h3>
              <p>※未完成<br>ここに日付ごとの予定などを入れる予定です</p>
-        </div>
+        </div> -->
 
         <div class="contents">
             <h3 id="calendars">行事予定表</h3>
             <div class="wakeme">
-                <h4>令和3年度　行事予定表</h4>
-                <img src="calender2021.svg" alt="行事日程表" title="行事日程表">
-                <p>
-                    <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/upload/docs/gyojiyoteiR3_v7.pdf">
+                <h4>令和4年度　行事予定表</h4>
+                <img src="calender.svg" alt="行事日程表" title="行事日程表">
+                <p>pdfは
+                    <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/forms02.php">
                         ここ
                     </a>
-                    をクリックするとpdfで表示されます  
+                    から  
                 </p>
             </div>
+        </div>
+
+        <div class="contents">
+            <h3 id="change">時間割変更・休講情報</h3>
+            <iframe src="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/upload/docs/%E6%99%82%E9%96%93%E5%89%B2%E5%A4%89%E6%9B%B4%E3%80%80040630.pdf"></iframe>
+            <p>pdfは
+                <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/forms02.php">
+                    ここ
+                </a>
+                から  
+            </p>
         </div>
 
         <div class="contents">
             <h3 id="timetable">時間割</h3>
 
             <div class="wakeme">
-                <h4>令和3年度　冬学期時間割表</h4>
-                <img src="WinterTimetable2021.svg" alt="時間割" title="時間割">
-                <p>
-                    <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/upload/docs/R03%E7%A7%8B%E5%AD%A6%E6%9C%9F%E6%99%82%E9%96%93%E5%89%B2%E8%A1%A8%EF%BC%88%E5%AD%A6%E7%94%9F%E7%99%BA%E8%A1%A8%EF%BC%89.pdf">
+                <h4>令和4年度　夏学期時間割表</h4>
+                <img src="Timetable.svg" alt="時間割" title="時間割">
+                <p>pdfは
+                    <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/forms02.php">
                         ここ
-                    </a>をクリックするとpdfで表示されます
+                    </a>
+                    から  
                 </p>
             </div>
             
-            <div class="wakeme">
-            <h4>令和3年度　冬学期時間割表（オンライン）</h4>
-            <img src="WinterOnlineTimetable2021.svg" alt="時間割" title="時間割">
-            <p>
-                <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/upload/docs/R3%E5%86%AC%E5%AD%A6%E6%9C%9F%E6%99%82%E9%96%93%E5%89%B2%EF%BC%88%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%EF%BC%89%EF%BC%880131-0204%EF%BC%89.pdf">
-                    ここ
-                </a>をクリックするとpdfで表示されます
-            </p>
-            </div>
 
-            <div class="wakeme">
+            <!-- <div class="wakeme">
                 <h4>令和3年度　冬学期時間割表（オンライン）</h4>
                 <img src="WinterOnlineHOkouTimetable2021.svg" alt="時間割" title="時間割">
                 <p>
@@ -94,9 +102,9 @@
                         ここ
                     </a>をクリックするとpdfで表示されます
                 </p>
-            </div>
+            </div> -->
 
-            <div class="wakeme">
+            <!-- <div class="wakeme">
                 <h4>令和3年度　冬学期答案返却・研修期間時間割表（オンライン）</h4>
                 <img src="WinterOnlineTouanhenkyakuTimetable2021.svg" alt="時間割" title="時間割">
                 <p>
@@ -104,7 +112,7 @@
                         ここ
                     </a>をクリックするとpdfで表示されます
                 </p>
-            </div>
+            </div> -->
 
 
         </div>
@@ -115,50 +123,39 @@
             <p>
                 <a class="koko" href="https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=05&department_id=11&year=2021&lang=ja">
                     本科M
+                </a>　
+                <a class="koko" href="https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=05&department_id=12&year=2021&lang=ja">
+                    専攻科M
                 </a>
             </p>
 
             <p>
                 <a class="koko" href="https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=05&department_id=21&year=2021&lang=ja">
                     本科E
+                </a>　
+                <a class="koko" href="https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=05&department_id=22&year=2021&lang=ja">
+                    専攻科E
                 </a>
             </p>
         
             <p>
                 <a class="koko" href="https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=05&department_id=31&year=2021&lang=ja">
                     本科C
-                </a>
-            </p>
-        
-            <p>
-                <a class="koko" href="https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=05&department_id=41&year=2021&lang=ja">
-                    本科Z
-                </a>
-            </p>
-        
-            <p>
-                <a class="koko" href="https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=05&department_id=12&year=2021&lang=ja">
-                    専攻科M
-                </a>
-            </p>
-        
-            <p>
-                <a class="koko" href="https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=05&department_id=22&year=2021&lang=ja">
-                    専攻科E
-                </a>
-            </p>
-            
-            <p>
+                </a>　
                 <a class="koko" href="https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=05&department_id=32&year=2021&lang=ja">
                     専攻科C
                 </a>
             </p>
         
             <p>
+                <a class="koko" href="https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=05&department_id=41&year=2021&lang=ja">
+                    本科Z
+                </a>　
                 <a class="koko" href="https://syllabus.kosen-k.go.jp/Pages/PublicSubjects?school_id=05&department_id=42&year=2021&lang=ja">
                     専攻科Z
                 </a>
             </p>
+            
         </div>
 
         <div class="contents">
@@ -175,19 +172,105 @@
 
         <div class="contents">
             <h3 id="notification">届出様式</h3>
-            <div class="hidariyose">
-                <p>
-                    <a class="koko" href="https://forms.office.com/Pages/ResponsePage.aspx?id=XYP-cpVeEkWK4KezivJfyILQRp0O_DRKi479HNkkSDtUN1NWRzk5WVJWUlNIR0VTTkdFWTRENE5GNS4u">
-                        様式0
-                    </a><br>発熱等の風邪症状がある場合
+            <div class="wakeme">
+                <h4>コロナ関係の届出様式</h4><br>
+                <div class="hidariyose">
+                    <p>
+                        咽頭痛、発熱など少しでも体調不良がある場合には必ず【様式０】で報告し、受診して検査を受けてください。<br>
+                        検査結果は【様式４】で報告してください。<br>
+                        身近なところで感染者や検査対象者が発生した場合の【様式７】への報告は、引き続き速やかに行ってください。<br>
+                        <br>
+
+                        <a class="koko" href="https://forms.office.com/r/xCm0wTPmJh">
+                            様式0
+                        </a><br>発熱等の風邪症状がある場合、体調不良がある場合
+                        <br><br>
+                        <a class="koko" href="https://forms.office.com/r/Jjtetq9mve">
+                            様式4
+                        </a><br>検査結果
+                        <br><br>
+                        <a class="koko" href="https://forms.office.com/r/2Xvspxkeub">
+                            様式7
+                        </a><br>身近な人(同居家族等)の職場や学校等で感染者が発生した場合、自分はもちろん、身近な人(同居家族、家族の職場や学校の関係者等)が保健所から PCR 検査等の対象者に特定された場合
+                    </p>
+                </div>
+            </div>
+
+            <div class="wakeme">
+                <h4>教務係</h4>
+                <div class="hidariyose">
+                    <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/upload/docs/kouketukyokanegai.pdf">
+                        公欠許可願
+                    </a><br>公欠をするとき
                     <br><br>
-                    <a class="koko" href="https://forms.office.com/Pages/ResponsePage.aspx?id=XYP-cpVeEkWK4KezivJfyILQRp0O_DRKi479HNkkSDtUQU41Mk84MDVQWDZXVzFSUU1XV0MwR0xJTi4u">
-                        様式7
-                    </a><br>身近な人(同居家族等)の職場や学校等で感染者が発生した場合、自分はもちろん、身近な人(同居家族、家族の職場や学校の関係者等)が保健所から PCR 検査等の対象者に特定された場合
+                    <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/upload/docs/05%20absence.pdf">
+                        欠席届
+                    </a><br>公欠以外の欠席・欠課・遅刻・早退をするとき
+                    <br><br>
+                    <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/upload/docs/09%20application%20tsuishiken.pdf">
+                        追試験願
+                    </a><br>追試験の受験を希望するとき<br>
+                    欠席の理由に合わせて、下記書類とともに提出してください。<br>
+                    （病欠の場合）医師の診断書<br>
+                    （公欠の場合）公欠扱許可願
+                    <br><br>
+                    <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/upload/docs/09%20application%20tsuishiken.pdf">
+                        再試験願
+                    </a><br>再試験の受験を希望するとき<br>
+                    ※指定期限までに提出してください。
+                    <br><br>
+                </div>
+            </div>
+
+            <div class="wakeme">
+                <h4>学生係</h4>
+                <div class="hidariyose">
+                    <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/upload/docs/tugakusyoumeisyo.xls">
+                        通学証明書」申込書
+                    </a><br>電車通学をする時<br>
+                    学生課に備え付けのボックスに提出又は学生係宛(gakusei-o@hachinohe-ct.ac.jp)にメールにて申請も可。<br>
+                    申込書提出後、翌々日午後に発行します。
+                    <br><br>
+
+                    <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/upload/docs/kenko-check202107.pdf">
+                        健康チェックシート
+                    </a><br>各クラスで回収予定
+                    <br><br>
+
+                    <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/upload/docs/arubaito%204-5.pdf">
+                        アルバイト届(高学年用)
+                    </a><br>高学年（４，５年）がアルバイトをするとき<br>
+                    提出の理由が、学生便覧「アルバイトについての心得」の条件に当てはまるか必ず確認をすること。
+                    <br><br>
+
+                    <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/upload/docs/unntennmennkyosyutokutodoke.pdf">
+                        運転免許取得届
+                    </a><br>自動車運転免許を取得したとき
+                    <br><br>
+
+                    <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/upload/docs/jitensha.doc">
+                        自転車（登録）通学届
+                    </a><br>自転車で通学をしたいとき。<br>
+                    配付されたステッカーを自転車に必ず貼付すること。<br>
+                    ※ステッカーは後日受け取りに来ること。<br>
+                    ※年度毎に提出・更新すること。<br>
+                    <br><br>
+
+                    <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/upload/docs/buppin%20shakuyo.pdf">
+                        物品等借用申込書
+                    </a><br>学校の物品を借用したいとき
+                    <br><br>
+                </div>
+                <p>その他の届出様式は
+                    <a class="koko" href="https://www.hachinohe-ct.ac.jp/schoollife/messageboard/">
+                        ここ
+                    </a>
+                    から  
                 </p>
             </div>
 
-            <p><br><br>その他も載せる予定</p>
+
+            <!-- <p><br><br>その他も載せる予定</p> -->
         </div>
 
         <div class="contents">
@@ -267,30 +350,35 @@
             <p>テスト段階なのでアンケートに答えていただけると嬉しいです。</p>
         </div>
 
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScLNATkgYfF9-IIu7Leba4ivqGC73xw8_8Bn7Os89c4vmhCkQ/viewform?embedded=true" width="375" height="375" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+        <iframe class="survey" src="https://docs.google.com/forms/d/e/1FAIpQLScLNATkgYfF9-IIu7Leba4ivqGC73xw8_8Bn7Os89c4vmhCkQ/viewform?embedded=true" width="640" height="422" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
 
 
     </div>
 
     <ul class="header-list">
-        <a href="#schedule" class="headlink"><div>今日の日程</div></a>
+        <!-- <a href="#schedule" class="headlink"><div>今日の日程</div></a> -->
         <a href="#calendars" class="headlink"><div>行事予定表</div></a>
+        <a href="#change" class="headlink"><div>時間割変更<br>・休講情報</div></a>
         <a href="#timetable" class="headlink"><div>時間割</div></a>
         <a href="#syllabus" class="headlink"><div>シラバス</div></a>
         <a href="#handbook" class="headlink"><div>学生便覧</div></a>
         <a href="#notification" class="headlink"><div>届出様式</div></a>
         <a href="#links" class="headlink"><div>各リンク</div></a>
         <a href="#others" class="headlink"><div>その他</div></a>
-        <a href="#noticeboard" class="headlink"><div>掲示板</div></a>
+        <!-- <a href="#noticeboard" class="headlink"><div>掲示板</div></a> -->
     </ul>
 
     <footer>
-        <a>お問い合わせ</a><p>※未完成</p>
-        <br>
-        <form>
-            <input type="text">
-            <input type="submit">
-        </form>
+        <p>
+            ご意見・ご要望・ご感想などあれば、上記のアンケートまたはTwitterからどうぞ
+        </p>
+        <a href="https://twitter.com/4HITHCstudents?s=20&t=bTPDEarGucdfvFQUwZ0R4w">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            width="50" height="50"
+            viewBox="0 0 50 50"
+            style=" fill:rgb(80, 167, 159);"><path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"></path></svg>
+        </a>
+        <a href="#" id="page-top">↑</a>
     </footer>
 
     
